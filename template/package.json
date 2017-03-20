@@ -1,0 +1,33 @@
+{
+  "name": "webpack-example",
+  "version": "1.0.0",
+  "description": "It is an example of webpack config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "WW": "webpack",
+    "WS": "webpack-dev-server --inline --hot --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aadshalshihry/webpackExample.git"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-dev-serve"
+  ],
+  "author": "Roman Alshehri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aadshalshihry/webpackExample/issues"
+  },
+  "homepage": "https://github.com/aadshalshihry/webpackExample#readme",
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "jshint-loader": "^0.8.3",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
