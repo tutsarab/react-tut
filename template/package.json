@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "WW": "webpack",
-    "WS": "webpack-dev-server --inline --hot --config webpack.config.js"
+    "ww": "webpack",
+    "ws": "webpack-dev-server --inline --hot --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -23,11 +23,21 @@
   },
   "homepage": "https://github.com/aadshalshihry/webpackExample#readme",
   "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "react": "*",
+    "react-dom": "*",
     "css-loader": "^0.26.1",
     "jshint-loader": "^0.8.3",
     "raw-loader": "^0.5.1",
     "style-loader": "^0.13.1",
-    "webpack": "^1.14.0",
-    "webpack-dev-server": "^1.16.2"
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.3.13",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13"
+
   }
 }
